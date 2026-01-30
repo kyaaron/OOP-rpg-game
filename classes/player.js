@@ -5,7 +5,7 @@ export class Player extends Entity {
     description() {
         return `The ${this.name} is a vailient warrior with ${this.health} and a gold purse with ${this.gold} gold coins.`;
     }
-    heroAttach(monster, amount) {
+    heroAttack(monster, amount) {
         monster.health -= amount;
         return `${this.name} invokes mighty courage and strength and attacks the ${monster.name} for ${amount} damage! Their health is now at ${monster.health}.`;
     }
