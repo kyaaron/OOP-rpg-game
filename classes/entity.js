@@ -1,4 +1,4 @@
-export class Entity {
+export default class Entity {
     constructor(name, health, image, gold) {
         this._name = name;
         this._health = health;

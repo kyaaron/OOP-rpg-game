@@ -1,4 +1,4 @@
-export class Monster extends Entity {
+export default class Monster extends Entity {
     constructor(name, health, image, gold) {
         super(name, health, image, gold);
     }
