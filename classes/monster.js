@@ -1,3 +1,5 @@
+import Entity from "./entity.js"
+
 export default class Monster extends Entity {
     constructor(name, health, image, gold) {
         super(name, health, image, gold);
