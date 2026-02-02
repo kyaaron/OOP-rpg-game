@@ -1,4 +1,6 @@
-export class Player extends Entity {
+import Entity from "./entity.js";
+
+export default class Player extends Entity{
     constructor(name, health, image, gold) {
         super(name, health, image, gold);
     }
@@ -7,6 +9,6 @@ export class Player extends Entity {
     }
     heroAttack(monster, amount) {
         monster.health -= amount;
-        return `${this.name} invokes mighty courage and strength and attacks the ${monster.name} for ${amount} damage! Their health is now at ${monster.health}.`;
+        document.querySelector("#text-section").innerText = `${this.name} invokes mighty courage and strength and attacks the ${monster.name} for ${amount} damage! Their health is now at ${monster.health}.`;
     }
 }
