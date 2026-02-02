@@ -20,5 +20,5 @@ I learned that I can update the DOM from methods in an object. I also have an `U
 Separate files (i.e. classes) > Exported into a barrel file > The barrel file imported into main.js. This is something I'm going to be bringing into my future projects as they get larger and more complex.
 
 ## Other recent projects
-**DashTrack Running Tracker App**: https://kyaaron.github.io/dashtrack-running-app/ <br>
+**DashTrack Running Tracker App**: https://kyaaron.github.io/dashtrack-running-app/ <br><br>
 **Dungeons and Dragons Spell/Monster Search App**: https://kyaaron.github.io/Dungeons-and-Dragons-Search-App/
