@@ -10,17 +10,17 @@
     <h1 class="text-3xl text-center font-bold">RPG Game</h1>
     <p class="text-center">This is a RPG game between a player and monster. The reward is gold. Built on Tailwind CSS.</p>
 
-    <section class="text-section text-center mt-4"></section>
+    <section id="text-section" class="text-center mt-4">The hero and monster meet in battle!</section>
     <main class="flex w-full mt-4 px-12">
         <section class="player-section w-1/2 flex flex-col items-start">
-            <h2>Hero</h2>
+            <h2 id="player-name">Hero:</h2>
             <p id="player-health">Health:</p> 
             <p id="player-gold">Gold:</p>
             <button id="player-attack" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-32">Attack</button>
             <button id="player-heal" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-32">Heal</button>
         </section>
         <section class="monster-section w-1/2 flex flex-col items-end">
-            <h2>Monster</h2>
+            <h2 id="monster-name">Monster:</h2>
             <p id="monster-health">Health:</p>
             <p id="monster-gold">Gold:</p>
             <button id="monster-attack" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-32">Attack</button>
